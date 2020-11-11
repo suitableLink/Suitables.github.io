@@ -1,46 +1,169 @@
 ﻿<!DOCTYPE HTML>
 <!--
-	Eventually by HTML5 UP
+	Ethereal by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Suitables - Home</title>
+		<title>Suitables - Info</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="eventually/assets/css/main.css" />
+		<link rel="stylesheet" href="ethereal/assets/css/main.css" />
+		<link rel="stylesheet" href="ethereal/assets/css/font-awesome.min.css" />
+		<noscript><link rel="stylesheet" href="ethereal/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
-		<!-- Header -->
-		<header id="header">
-			<h1>Suitables</h1>
-			<p>Cultivating the true craft cocktail experience.</p>
-			<h5>** Website currently under development. **</h5>
-		</header>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
 
-		<!-- Signup Form
-		<form id="signup-form" method="post" action="#">
-			<input type="email" name="email" id="email" placeholder="Email Address" />
-			<input type="submit" value="Sign Up" />
-		</form>-->
-		<!-- Footer -->
-		<footer id="footer">
-			<ul class="icons">
-				<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
-				<li><a href="https://www.instagram.com/suitables_drinks/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-				<!--<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>-->
-				<li><a href="mailto:Nathaniel.Link@suitables.us" class="icon fa-envelope"><span class="label">Email</span></a></li>
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Suitables Of Anderson LLC.</li>
-				<li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
-			</ul>
-		</footer>
+            $(function () {
+
+                var result = Math.random().toString(36).substring(2, 5);
+                var href = $("#mailTo").attr('href')
+                var newHref = href + result
+                $("#mailTo").attr("href", newHref)
+            });
+
+		</script>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Wrapper -->
+				<div id="wrapper">
+
+					<!-- Panel (Banner) -->
+					<section class="panel banner right">
+						<div class="content color0 span-3-75">
+							<h1 class="major">
+								Hello, and welcome<br />
+								to Suitables
+							</h1>
+							<p>Cultivating the true craft cocktail experience.</p>
+							<ul class="actions">
+								<li><a href="#Glossary" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
+							</ul>
+						</div>
+						<div class="image filtered span-1-75" data-position="30% 30%">
+							<img src="images/C1.jpg" alt="" />
+						</div>
+					</section>
+
+					<!-- Panel -->
+					<section class="panel color4-alt" id="Glossary">
+						<div class="inner columns divided">
+							<div class="span-1-5">
+								<ul class="contact-icons color1">
+									<li class="icon solid fa-glass"><a href="#WhoAreWe">Who Are We?</a></li>
+									<li class="icon solid fa-camera"><a href="#Gallery">Gallery</a></li>
+									<li class="icon solid fa-address-card"><a href="#ContactUs">Contact Us</a></li>
+									<li class="icon brands fa-instagram"><a href="https://www.instagram.com/suitables_drinks/">Instagram</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+					<!-- Panel (Spotlight) -->
+					<section class="panel spotlight medium" id="WhoAreWe">
+						<div class="content span-7">
+							<h2 class="major">We Are...</h2>
+							<p>...a dedicated group of cocktail enthusiasts. <br />Curating an experience unlike any other, we seek to not only entertain and serve, but to inform and teach along the way. <strong>Suitables</strong> strives to never stop growing, learning, experimenting, and experiencing.  </p>
+
+							<h4>Our Specialties</h4>
+							<ul class="alt">
+								<li>Private Event Cocktail Catering</li>
+								<li>Spirit Tastings and Flights</li>
+								<li>Molecular Mixology</li>
+								<li>Spirit Bottling</li>
+							</ul>
+						</div>
+						<div class="image filtered tinted" data-position="top left">
+							<img src="ethereal/images/pic02.jpg" alt="" />
+						</div>
+					</section>
+
+					<!-- Panel -->
+					<section class="panel" id="Gallery">
+						<div class="intro color2">
+							<h2 class="major">Gallery</h2>
+							<p></p>
+						</div>
+						<div class="gallery">
+							<div class="group span-3">
+								<a href="images/gallery/fulls/C5.jpg" class="image filtered span-3" data-position="bottom"><img src="images/gallery/thumbs/C5.jpg" alt="" /></a>
+								<a href="images/gallery/fulls/C2.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/C2.jpg" alt="" /></a>
+								<a href="ethereal/images/gallery/fulls/03.jpg" class="image filtered span-1-5" data-position="bottom"><img src="ethereal/images/gallery/thumbs/03.jpg" alt="" /></a>
+							</div>
+							<a href="images/gallery/fulls/C3.jpg" class="image filtered span-2-5" data-position="center"><img src="images/gallery/thumbs/C3.jpg" alt="" /></a>
+							<div class="group span-3">
+								<a href="ethereal/images/gallery/fulls/07.jpg" class="image filtered span-1-5" data-position="bottom"><img src="ethereal/images/gallery/thumbs/07.jpg" alt="" /></a>
+								<a href="images/gallery/fulls/C8.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/C8.jpg" alt="" /></a>
+								<a href="images/gallery/fulls/C4.jpg" class="image filtered span-3" data-position="center"><img src="images/gallery/thumbs/C4.jpg" alt="" /></a>
+							</div>
+							<a href="images/gallery/fulls/C6.jpg" class="image filtered span-2-5" data-position="center"><img src="images/gallery/thumbs/C6.jpg" alt="" /></a>
+						</div>
+					</section>
+
+					<!-- Panel -->
+					<section class="panel color2-alt">
+						<div class="intro color2">
+							<h2 class="major">Booking</h2>
+							<p>If you're interested in hiring <strong>Suitables</strong> for one of your events please feel free to fill out the contact form and we'll reach out to you as soon as possible!</p>
+							<p>Pricing is variable and will depend on party size, location, duration, menu size, and services requested.</p>
+						</div>
+						<div class="inner columns aligned">
+							<div class="span-4-5" id="ContactUs">
+								<h3 class="major">Contact Us</h3>
+								<form method="post" action="mailto:Nathaniel.Link@suitables.us?Subject=Contact%20Form%20Request" enctype="text/plain">
+									<div class="fields">
+										<div class="field third">
+											<label for="demo-name">Name</label>
+											<input type="text" name="Name" id="demo-name" value="" placeholder="Jane Doe" />
+										</div>
+										<div class="field third">
+											<label for="demo-email">Email</label>
+											<input type="email" name="Email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+										</div>
+										<!--<div class="field third">
+											<label for="demo-category">Category</label>
+											<div class="select-wrapper">
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+										</div>-->
+										<div class="field">
+											<label for="demo-message">Message</label>
+											<textarea name="Message" id="demo-message" placeholder="Enter your message" rows="2"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary color2" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+							</div>
+						</div>
+					</section>
+
+					<!-- Copyright -->
+					<div class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
+
+				</div>
+
+			</div>
 
 		<!-- Scripts -->
-		<script src="eventually/assets/js/main.js"></script>
+			<script src="ethereal/assets/js/jquery.min.js"></script>
+			<script src="ethereal/assets/js/browser.min.js"></script>
+			<script src="ethereal/assets/js/breakpoints.min.js"></script>
+			<script src="ethereal/assets/js/main.js"></script>
 
 	</body>
 </html>

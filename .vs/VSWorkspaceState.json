@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\ethereal",
-    "\\Images"
+    "\\ethereal\\images",
+    "\\ethereal\\images\\gallery",
+    "\\ethereal\\images\\gallery\\fulls",
+    "\\ethereal\\images\\gallery\\thumbs",
+    "\\images"
   ],
-  "SelectedNode": "\\ethereal\\images",
+  "SelectedNode": "\\ethereal\\images\\gallery\\thumbs\\07.jpg",
   "PreviewInSolutionExplorer": false
 }
